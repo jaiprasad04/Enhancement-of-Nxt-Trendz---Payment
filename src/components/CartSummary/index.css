@@ -1,0 +1,158 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-total-value {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 32px;
+  }
+}
+
+.order-total-label {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+
+.total-items {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+  }
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+.payment-popup {
+}
+
+.payment-method-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px 0px #0a111b;
+  border-radius: 12px;
+  width: 95%;
+  max-width: 540px;
+  height: 60%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.close-button {
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.payment-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  color: #3e4c59;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-option {
+  border: 1px solid #d7dde6;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  padding: 12px 4px;
+}
+
+.label-name {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #111924;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.confirm-order {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 18px;
+  margin-top: 12px;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.placed-order {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  color: #3e4c59;
+}
+
+.placed-method-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px 0px #0a111b;
+  border-radius: 12px;
+  width: 95%;
+  max-width: 440px;
+  height: 60%;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
